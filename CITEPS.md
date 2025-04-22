@@ -1,6 +1,8 @@
 # CITEPS: Cyber Incident Tracker for Electric Power Systems
 
-![CITEPS01](CITEPS01.png "CITEPS: Cyber Incident Tracker for Electric Power Systems")
+<p align="center"><img src="CITEPS01.png" width="500px"></p>
+
+*Tip: Click on the table and use the arrow keys on your keyboard to navigate between columns.*
 
 | 🕵️‍♂️ Codename | 🚨 Category | 📅 Year | 🌎 Region | ⚙️ Sector | 🏢 Affected Organization | 💀 Threat Actor | 🛠️ MITRE ATT&CK®<br>Enterprise | 🏭 MITRE ATT&CK®<br>ICS | 🐞 Vulnerabilities and Key Points | 🔗 References |
 |---|---|---|---|---|---|---|---|---|---|---|
