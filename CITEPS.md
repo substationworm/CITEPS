@@ -43,7 +43,7 @@
 | 2022Rosseti | 🟢 Low | 2022 | 🇷🇺 Russia | 1️⃣ Energy<br>2️⃣ Transport | Rosseti | AutoEnterprise | 🌀 | 🌀 | EV charging disabled<br>HMI defaced | [ref. 01][ref01-2022rosseti] | [ref. 02][ref02-2022rosseti] |
 | 2022UKR-PwrSysAtk01 | 🟡 Moderate | 2022 | 🇺🇦 Ukraine | 1️⃣ Energy | 🌀 Electric utility | [Sandworm Team][sandwormteam] | 🌀 | 🌀 | [Industroyer2][industroyer2] deployed<br>🌀 Unsuccessful attack | [ref.][ref-2022ukr-pwrsysatk01] |
 | 2022UKR-PwrSysAtk02 | ☠️ Critical | 2022 | 🇺🇦 Ukraine | 1️⃣ Energy | 🌀 Substation | [Sandworm Team][sandwormteam] | 🌀 | 🌀 | Threat actor gained access to SCADA<br>Used OT-based LotL techniques,<br>[CaddyWiper][caddywiper], and other tools | [ref.][ref-2022ukr-pwrsysatk02]
-| 🚫🗣️ 2023CAN-Pipeline | 🔴 High | 2023 | 🇨🇦 Canada | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Gas pipeline | Zarya | 🌀 | 🌀 | Compromise of OT<br>🤔 Disinformation |[ref. 01][ref01-2023can-pipeline]<br>[ref. 02][ref02-2023can-pipeline]<br>[ref. 03][ref03-2023can-pipeline] |
+| 🚫🗣️ 2023CAN-Pipeline | 🔴 High | 2023 | 🇨🇦 Canada | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Gas pipeline | Zarya | 🌀 | 🌀 | Compromise of OT<br>🤔 Disinformation | [ref. 01][ref01-2023can-pipeline]<br>[ref. 02][ref02-2023can-pipeline]<br>[ref. 03][ref03-2023can-pipeline] |
 | 2023DNK-LargestCyberAtk | 🔴 High | 2023 | 🇩🇰 Denmark | 1️⃣ Energy | Twenty two companies | 🤔 [Sandworm Team][sandwormteam] | [T1133][t1133] | 🌀 | [CVE-2023-28771][cve-2023-28771]<br>[CVE-2023-33009][cve-2023-33009]<br>[CVE-2023-33010][cve-2023-33010] | [ref.][ref-2023dnk-largestcyberatk] |
 | 2023Hydro-Québec | 🟢 Low | 2023 | 🇨🇦 Canada | 1️⃣ Energy | Hydro-Québec | Pro-Russian group | 🌀 | 🌀 | DDoS attack<br>Website temporarily<br>unavailable | [ref. 01][ref01-2023hydroquebec]<br>[ref. 02][ref02-2023hydroquebec]<br>[ref. 03][ref03-2023hydroquebec] |
 | 2023SuncorEnergy | 🟡 Moderate | 2023 | 🇨🇦 Canada | 1️⃣ Energy<br>2️⃣ Transport | Suncor Energy<br>Petro Canada | 🌀 | 🌀 | 🌀 | 🤔 Ransomware attack<br>🤔 Data breach<br>Login down on app/site;<br>no points at pumps for customers | [ref. 01][ref01-2023suncorenergy]<br>[ref. 02][ref02-2023suncorenergy]<br>[ref. 03][ref03-2023suncorenergy]<br>[ref. 04][ref04-2023suncorenergy] |
@@ -55,6 +55,7 @@
 | 2024TWN-U-Renew | 🟡 Moderate | 2024 | 🇹🇼 Taiwan | 1️⃣ Energy<br>9️⃣ Industry | Taiwan United<br>Renewable Energy | 🌀 | 🌀 | 🌀 | Factory shut down | [ref.][ref-2024twn-u-renew] |
 | 2024PEMEX | 🟢 Low | 2024 | 🇲🇽 Mexico | 1️⃣ Energy | PEMEX | 🌀 | 🌀 | 🌀 | Data breach | [ref.][ref-2024pemex] |
 | 🚫🗣️ 2025ENDE | 🟢 Low | 2025 | 🇧🇴 Bolivia | 1️⃣ Energy | Bolivia | 🤔 LockBit Group | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>[LockBit 3.0][lockbit3-0] deployed | [ref.][ref-2025ENDE] |
+| 2025Emera | 🟢 Low | 2025 | 🇨🇦 Canada | 1️⃣ Energy | Emera and Nova<br>Scotia Power | 🌀 | 🌀 | 🌀 | Data breach<br>🤔 Ransomware attack<br>Unavailability of services | [ref. 01][ref01-2025emera]<br>[ref. 02][ref02-2025emera] |
 
 **Legend:** 🤔 Suspicions. 🌀 Uncertainty or lack of information. 🚫🗣️ No official confirmation or public statement has been identified from the alleged victim.
 
@@ -230,12 +231,14 @@ Severity levels are assigned with a **specific focus on the OT-ICS context**. Th
 [ref01-2024air-e]: https://web.archive.org/web/20250417162641/http://web.archive.org/screenshot/https://cybermaterial.com/air-e-hit-by-sophisticated-ransomware-attack
 [ref02-2024air-e]: https://web.archive.org/web/20240920135909/https://www.infobae.com/colombia/2024/09/10/air-e-mantiene-comprometidos-sistemas-por-ciberataque-empresa-reporto-incidente-a-la-fiscalia
 [ref01-2024bviec]: https://web.archive.org/web/20250224172620/https://bvinews.com/bviec-suffers-cyber-attack
-[ref02-2024bviec]: https://web.archive.org/web/20241111081625/https://bvinews.com/bviec-estimating-bills-after-ransomware-hack/
+[ref02-2024bviec]: https://web.archive.org/web/20241111081625/https://bvinews.com/bviec-estimating-bills-after-ransomware-hack
 [ref-2024emcali]: https://web.archive.org/web/20240723082412/https://www.semana.com/nacion/cali/articulo/emcali-logro-en-tiempo-record-bloquear-gran-ataque-cibernetico-como-lo-hicieron-detalles-de-una-operacion-de-alto-nivel/202442
 [ref01-2024mepso]: https://web.archive.org/web/20240610220837/https://mia.mk/en/story/mepso-hit-by-cyberattack-power-grid-and-electricity-supply-not-threatened
 [ref-2024twn-u-renew]: https://web.archive.org/web/20250125040213/https://www.ithome.com.tw/news/162248
 [ref-2024pemex]: https://web.archive.org/web/20240301023958/https://oilandgasmagazine.com.mx/2024/02/pemex-enfrenta-nueva-filtracion-de-datos-por-hackeo
-[ref-2025ENDE]: https://web.archive.org/web/20250417194720/http://web.archive.org/screenshot/https://www.hendryadrian.com/ransom-ende-bo/
+[ref-2025ENDE]: https://web.archive.org/web/20250417194720/http://web.archive.org/screenshot/https://www.hendryadrian.com/ransom-ende-bo
+[ref01-2025emera]: https://web.archive.org/web/20250502061343/https://www.nspower.ca
+[ref02-2025emera]: https://web.archive.org/web/20250502074743/https://www.securityweek.com/canadian-electric-utility-hit-by-cyberattack
 
 <!-- Vulnerabilities and Key Points (Links) -->
 [air-e01]: https://web.archive.org/web/20250417162042/http://web.archive.org/screenshot/https://www.noticiasbq.com/barranquilla/ataque-cibernetico-obliga-a-air-e-a-suspender-terminos-de-atencion
