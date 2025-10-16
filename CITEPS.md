@@ -1,26 +1,36 @@
 # CITEPS: Cyber Incident Tracker for Electric Power Systems
 
-<p align="center"><img src="CITEPS01.png" width="500px"></p>
+![CITEPS01](CITEPS01.png "CITEPS: Cyber Incident Tracker for Electric Power Systems")
 
 *Tip: Click on the table and use the arrow keys on your keyboard to navigate between columns.*
 
 | 🕵️‍♂️ Codename | 🚨 Category | 📅 Year | 🌎 Region | ⚙️ Sector | 🏢 Affected Organization | 💀 Threat Actor | 🛠️ MITRE ATT&CK®<br>Enterprise | 🏭 MITRE ATT&CK®<br>ICS | 🐞 Vulnerabilities and Key Points | 🔗 References |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2010Stuxnet | ☠️ Critical | 2010 | 🇮🇷 Iran | 1️⃣ Energy | Natanz Nuclear<br>Facility | 🇺🇸 United States<br>🇮🇱 Israel | [T1091][t1091] | [T0847][t0847] | [Stuxnet][stuxnet] infected PCs and<br>destroyed 984<br>centrifuges<br>[CVE-2010-2772][cve-2010-2772]<br>[CVE-2010-2729][cve-2010-2729]<br>[CVE-2010-2743][cve-2010-2743] | [ref. 01][ref01-2010stuxnet]<br>[ref. 02][ref02-2010stuxnet]<br>[ref. 03][ref03-2010stuxnet] |
-| 2012ANDE | 🟢 Low | 2012 | 🇵🇾 Paraguay | 1️⃣ Energy | ANDE | 🤔 Anonymous | 🌀 | 🌀 | Website defacement | [ref.][ref-2012ande] |
+| 1982USRR-Pipeline | ☠️ Critical | 1982 | 🇷🇺 Russia | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | 🌀 Gas pipeline | 🤔🇺🇸 United States | 🌀 | 🌀 | 🤔 Use of a trojan to sabotage<br>a gas pipeline | [ref. 01][ref01-1982usrr-pipeline]<br>[ref. 02][ref02-1982usrr-pipeline] |
+| 1999Gazprom | ☠️ Critical | 1999 | 🇷🇺 Russia | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Gazprom | 🌀 | 🌀 | 🌀 | Compromised SCADA | [ref.][ref-1999gazprom] |
+| 2003SlammerWorm | ☠️ Critical | 2003 | 🇺🇸 United States | 1️⃣ Energy | Davis-Besse<br>Nuclear Power Station | 🌀 | 🌀 | 🌀 | Compromised OT-ICS network<br>Infected SPDS | [ref. 01][ref01-2003slammerworm]<br>[ref. 02][ref02-2003slammerworm] |
+| 2008HatchNPP | ☠️ Critical | 2008 | 🇺🇸 United States | 1️⃣ Energy | Edwin I. Hatch<br>Nuclear Power Plant | Insider |🌀 | 🌀 | Emergency shutdown<br>Engineer mistake | [ref.][ref-2008hatchnpp] |
+| 2009Cyberspies | 🟢 Low | 2009 | 🇺🇸 United States | 1️⃣ Energy | Electricity infrastructure | 🌀 | 🌀 | 🌀 | Cyber espionage | [ref. 01][ref01-2009cyberspies]<br>[ref. 02][ref02-2009cyberspies] |
+| 2010Stuxnet | ☠️ Critical | 2010 | 🇮🇷 Iran | 1️⃣ Energy | Natanz Nuclear<br>Facility | 🇺🇸 United States<br>🇮🇱 Israel | [T1091][t1091] | [T0847][t0847] | [Stuxnet][stuxnet] infected PCs and<br>destroyed 984 centrifuges<br>[CVE-2010-2772][cve-2010-2772]<br>[CVE-2010-2729][cve-2010-2729]<br>[CVE-2010-2743][cve-2010-2743] | [ref. 01][ref01-2010stuxnet]<br>[ref. 02][ref02-2010stuxnet]<br>[ref. 03][ref03-2010stuxnet] |
+| 2011NightDragon | 🟢 Low | 2011 | 🇺🇸 United States<br>🗺️ Others | 1️⃣ Energy | Oil, energy, and<br>petrochemical sectors | Night Dragon | [T1078][t1078]<br>[T1110][t1110]<br>[T1133][t1133]<br>[T1566][t1566] | 🌀 | Data breach<br>[SCADA data collected][nightdragon] | [ref.][ref-2011nightdragon] |
+| 2012ANDE | 🟢 Low | 2012 | 🇵🇾 Paraguay | 1️⃣ Energy | ANDE | 🤔 Anonymous | 🌀 | 🌀 | Website defacement | [ref.][ref-2012ande] | 
 | 🚫🗣️ 2012IRN-AC-DC | 🟡 Moderate | 2012 | 🇮🇷 Iran | 1️⃣ Energy | Natanz and Fordo<br>Nuclear Facilities | 🌀 | 🌀 | [T0822][t0822] | Automation system<br>shutdown| [ref. 01][ref01-2012irn-ac-dc]<br>[ref. 02][ref02-2012irn-ac-dc] |
-| 2012IRN-OilInd | 🟢 Low | 2012 | 🇮🇷 Iran | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Oil facilities | 🌀 | 🌀 | 🌀 | Flame/Wiper malware<br>deployed<br>Oil terminals<br>disconnected from Internet | [ref. 01][ref01-2012irn-oilind]<br>[ref. 02][ref02-2012irn-oilind]<br>[ref. 03][ref03-2012irn-oilind] |
+| 2012IRN-OilInd | 🟢 Low | 2012 | 🇮🇷 Iran | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Oil facilities | 🌀 | 🌀 | 🌀 | [Flame][flame]/Wiper malware<br>deployed<br>Oil terminals<br>disconnected from Internet | [ref. 01][ref01-2012irn-oilind]<br>[ref. 02][ref02-2012irn-oilind]<br>[ref. 03][ref03-2012irn-oilind] |
+| 2012SaudiAramco | 🟢 Low | 2012 | 🇸🇦 Saudi Arabia | 1️⃣ Energy<br>9️⃣ Industry | Saudi Aramco | Cutting Sword<br>of Justice | [T1566][t1566] | 🌀 | [Shamoon][shamoon] deployed<br>85% of IT infrastructure<br>was disrupted | [ref. 01][ref01-2012saudiaramco]<br>[ref. 02][ref02-2012saudiaramco] |
+| 2012Telvent | 🟡 Moderate | 2012 | 🇨🇦 Canada<br>🗺️ Others | 1️⃣ Energy<br>9️⃣ Industry | Telvent | 🤔 Comment Group | 🌀 | 🌀 | Corporate network intrusion<br>Theft of SCADA system<br>source code | [ref. 01][ref01-2012telvent]<br>[ref. 02][ref02-2012telvent] |
 | 2012USA-PowerCompany | 🔴 High | 2012 | 🇺🇸 United States | 1️⃣ Energy | Power company | 🌀 | 🌀 | [T0847][t0847] | Mariposa-infected<br>USB-drive<br>Power plant restart<br>delayed ~3 weeks | [ref.][ref-2012usa-powercompany] |
 | 2014DEU-SteelMill | ☠️ Critical | 2014 | 🇩🇪 Germany<br>🗺️ Others | 9️⃣ Industry | Steel Mill | 🌀 | [T1566][t1566] | 🌀 | Spearphishing<br> Compromise of ICS confirmed<br>Uncontrolled shutdown<br>led to major damage | [ref. 01][ref01-2014deu-steelmill]<br>[ref. 02][ref02-2014deu-steelmill] |
+| 2014Dragonfly | 🔴 High | 2014 | 🇪🇸 Spain<br>🇺🇸 United States<br>🗺️ Others | 1️⃣ Energy | Energy firms | [Dragonfly][dragonfly] | [T1078][t1078]<br>[T1110][t1110]<br>[T1133][t1133]<br>[T1566][t1566] | [T0817][t0817]<br>[T0862][t0862] | Update site compromised<br>to deliver trojanized<br>ICS software | [ref. 01][ref01-2014dragonfly]<br>[ref. 02][ref02-2014dragonfly] |
 | 2014KHNP | 🟢 Low | 2014 | 🇰🇷 South Korea | 1️⃣ Energy | Korea Hydro and Nuclear<br>Power (KHNP) plants | Kimsuky | [T1566][t1566] | 🌀 | Data breach | [ref. 01][ref01-2014khnp]<br>[ref. 02][ref02-2014khnp] |
 | 2014Monju | 🟢 Low | 2014 | 🇯🇵 Japan | 1️⃣ Energy | Monju Nuclear<br>Power Plant | 🌀 | 🌀 [T1195.002][t1195.002] | 🌀 | Malware introduced during<br>system update by employee<br>🤔 Data breach | [ref. 01][ref01-2014monju]<br>[ref. 02][ref02-2014monju] |
 | 2015UKR-PwrSysAtk | ☠️ Critical | 2015 | 🇺🇦 Ukraine | 1️⃣ Energy | Prykarpattyaoblenergo<br>Kyivoblenergo<br>Chernivtsioblenergo | [Sandworm Team][sandwormteam] | [T1078][t1078]<br>[T1133][t1133]<br>[T1566.001][t1566.001] | [T0822][t0822]<br>[T0886][t0886] | Phishing campaigns to deliver<br>[BlackEnergy][blackenergy] and [KillDisk][killdisk] | [ref.][ref-2015ukr-pwrsysatk] |
 | 2016Gundremmingen | 🟡 Moderate | 2016 | 🇩🇪 Germany | 1️⃣ Energy | Gundremmingen Nuclear<br>Power Plant | 🌀 | 🌀 [T1091][t1091] | 🌀 [T0847][t0847] | W32.Ramnit & [Conficker][conficker] detected | [ref. 01][ref01-2016gundremmingen]<br>[ref. 02][ref02-2016gundremmingen]<br>[ref. 03][ref03-2016gundremmingen] |
 | 2016ThyssenKrupp | 🟢 Low | 2016 | 🇩🇪 Germany | 9️⃣ Industry | ThyssenKrupp | 🌀 | 🌀 | 🌀 | Cyber espionage | [ref. 01][ref01-2016thyssenkrupp]<br>[ref. 01][ref01-2016thyssenkrupp] |
 | 2016UKR-PwrSysAtk | ☠️ Critical | 2016 | 🇺🇦 Ukraine | 1️⃣ Energy | Ukrenergo | [Sandworm Team][sandwormteam] | 🤔 [T1566][t1566] | [T0886][t0886] | Phishing campaings to deliver<br>[Industroyer][industroyer], aka, [CRASHOVERRIDE][crashoverride] | [ref. 01][ref01-2016ukr-pwrsysatk]<br>[ref. 02][ref02-2016ukr-pwrsysatk]<br>[ref. 03][ref03-2016ukr-pwrsysatk] |
-| 🚫🗣️ 2017SaudiAramco | ☠️ Critical | 2017 | 🇸🇦 Saudi Arabia | 1️⃣ Energy<br>9️⃣ Industry | 🤔 Saudi Aramco | 🌀 | 🌀 | 🌀 | SIS targeted<br>[Triton][triton] malware-driven<br>attack | [ref. 01][ref01-2017saudiaramco]<br>[ref. 02][ref02-2017saudiaramco] |
+| 🚫🗣️ 2017SaudiAramco | ☠️ Critical | 2017 | 🇸🇦 Saudi Arabia | 1️⃣ Energy<br>9️⃣ Industry | 🤔 Saudi Aramco<br>🤔 Petro Rabigh | 🌀 | 🌀 | 🌀 | SIS targeted<br>[Triton][triton] malware-driven<br>attack | [ref. 01][ref01-2017saudiaramco]<br>[ref. 02][ref02-2017saudiaramco]<br>[ref. 03][ref03-2017saudiaramco]<br>[ref. 04][ref04-2017saudiaramco]<br>[ref. 05][ref05-2017saudiaramco]<br>[ref. 06][ref06-2017saudiaramco] |
 | 2019JoburgCityPower | 🟡 Moderate | 2019 | 🇿🇦 South Africa | 1️⃣ Energy | City Power<br>Johannesburg | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>Prepaid customer outages | [ref. 01][ref01-2019joburgcitypower]<br>[ref. 02][ref02-2019joburgcitypower]<br>[ref. 03][ref03-2019joburgcitypower] |
-| 2019NPCIL | 🟢 Low | 2019 | 🇮🇳 India | 1️⃣ Energy | NPCIL | 🤔 Lazarus | [T1200][t1200] | 🌀 | Data breach<br>No impact to OT network | [ref. 01][ref01-2019npcil]<br>[ref. 02][ref02-2019npcil] |
+| 2019NorskHydro | 🟡 Moderate | 2019 | 🇳🇴 Norway | 1️⃣ Energy<br>9️⃣ Industry | Norsk Hydro | 🌀 | [T1566][t1566] | 🌀 | [LockerGoga][lockergoga] deployed<br>Ransomware attack<br>Unavailability of services<br>Production lines were halted<br>Ransom payment refused | [ref. 01][ref01-2019norskhydro]<br>[ref. 02][ref02-2019norskhydro]<br>[ref. 03][ref03-2019norskhydro]<br>[ref. 04][ref04-2019norskhydro] |
+| 2019NPCIL | 🟢 Low | 2019 | 🇮🇳 India | 1️⃣ Energy | NPCIL | 🤔 Lazarus | [T1200][t1200] | 🌀 | [Dtrack][dtrack] deployed<br>Data breach<br>No impact to OT network | [ref. 01][ref01-2019npcil]<br>[ref. 02][ref02-2019npcil]<br>[ref. 03][ref03-2019npcil] |
 | 2019PEMEX | 🟢 Low | 2019 | 🇲🇽 Mexico | 1️⃣ Energy | PEMEX | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>Power supply remained intact<br>[DoppelPaymer][doppelpaymer] deployed<br>USD 4.9 million demanded | [ref. 01][ref01-2019pemex]<br>[ref. 02][ref02-2019pemex]<br>[ref. 03][ref03-2019pemex] |
 | 2020CEMIG | 🟢 Low | 2020 | 🇧🇷 Brazil | 1️⃣ Energy | CEMIG | 🤔 HelloKitty Group | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services and website<br>Power supply remained intact<br>[HELLOKITTY][hellokitty] deployed | [ref. 01][ref01-2020cemig]<br> [ref. 02][ref02-2020cemig]<br>[ref. 03][ref03-2020cemig] |
 | 2020CNEL | 🟢 Low | 2020 | 🇪🇨 Ecuador | 1️⃣ Energy | ENEL | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services | [ref.][ref-2020cnel] |
@@ -30,7 +40,7 @@
 | 2020Energisa | 🟢 Low | 2020 | 🇧🇷 Brazil | 1️⃣ Energy | Energisa | 🌀 | 🌀 | 🌀 | 🤔 Vulnerability exploitation on a<br>JBoss server<br>Ransomware attack<br>Unavailability of services and website<br>Power supply remained intact<br>BRL 5 million demanded | [ref. 01][ref01-2020energisa]<br>[ref. 02][ref02-2020energisa] |
 | 2020Light | 🟢 Low | 2020 | 🇧🇷 Brazil | 1️⃣ Energy | Light | 🤔 [GOLD SOUTHFIELD][goldsouthfield] | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services and website<br>Power supply remained intact<br>[REvil (Sodinokibi)][revil] deployed<br>[USD 7 million demanded,<br>doubled after 48 hours][light01] | [ref. 01][ref01-2020light]<br>[ref. 02][ref02-2020light]<br>[ref. 03][ref03-2020light] |
 | 2020USA-Pipeline | ☠️ Critical | 2020 | 🇺🇸 United States | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Natural gas<br>facility | 🌀 | [T1566.002][t1566.002] | 🌀 | Ransomware attack<br>Unavailability of services<br>Affected both IT and OT<br>Pipele shutdown for two days | [ref. 01][ref01-2020usa-pipeline]<br>[ref. 02][ref02-2020usa-pipeline] |
-| 2021ColonialPipeline | ☠️ Critical | 2021 | 🇺🇸 United States | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Colonial Pipeline | [DarkSide Team][darksideteam] | [T1078][t1078] | 🌀 | Ransomware attack<br>[Compromised VPN password][colonial01]<br>[Over USD 5 million paid][colonial02] | [ref.][ref-2021colonialpipeline] |
+| 2021ColonialPipeline | ☠️ Critical | 2021 | 🇺🇸 United States | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Colonial Pipeline | [DarkSide Team][darksideteam] | [T1078][t1078] | 🌀 | Ransomware attack<br>[VPN password compromised][colonial01]<br>[Over USD 5 million paid][colonial02] | [ref.][ref-2021colonialpipeline] |
 | 2021Copel | 🟢 Low | 2021 | 🇧🇷 Brazil | 1️⃣ Energy<br>4️⃣ Communications | Copel | [DarkSide Team][darksideteam] | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services and website<br>Power supply remained intact | [ref. 01][ref01-2021copel]<br>[ref. 02][ref02-2021copel] |
 | 2021Eletrobras | 🟢 Low | 2021 | 🇧🇷 Brazil | 1️⃣ Energy | Eletrobras<br>Eletronuclear | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>Power supply remained intact | [ref. 01][ref01-2021eletrobras]<br>[ref. 02][ref02-2021eletrobras] |
 | 2022ECG | 🟡 Moderate | 2022 | 🇬🇭 Ghana | 1️⃣ Energy | Electricity Company<br>of Ghana | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>Prepaid customer outages | [ref. 01][ref01-2022ecg]<br>[ref. 02][ref02-2022ecg] |
@@ -39,7 +49,7 @@
 | 2022Jasec | 🟢 Low | 2022 | 🇨🇷 Costa Rica | 1️⃣ Energy<br>4️⃣ Communications | Jasec | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>Power supply remained intact<br>[Conti][conti] deployed | [ref. 01][ref01-2022jasec]<br>[ref. 02][ref02-2022jasec]<br>[ref. 03][ref03-2022jasec] |
 | 2022OilIndia | 🟢 Low | 2022 | 🇮🇳 India | 1️⃣ Energy<br>9️⃣ Industry | Oil India<br>Limited | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>Drilling and production<br>remained unaffected | [ref. 01][ref01-2022oilindia]<br>[ref. 02][ref02-2022oilindia] |
 | 2022PEMEX | 🟢 Low | 2022 | 🇲🇽 Mexico | 1️⃣ Energy | PEMEX | 🌀 | 🌀 | 🌀 | Data breach | [ref.][ref-2022pemex] |
-| 2022PredatorySparrow | ☠️ Critical | 2022 | 🇮🇷 Iran | 9️⃣ Industry | KSC, MSC,<br>HOSCO | Predatory<br>Sparrow | 🌀 | 🌀 | OT disruption<br>[CCTV footage<br>of the incident][predatorysparrow01] | [ref. 01][ref01-2022predatorysparrow]<br>[ref. 02][ref02-2022predatorysparrow] |
+| [2022PredatorySparrow][2022predatorysparrow] | ☠️ Critical | 2022 | 🇮🇷 Iran | 9️⃣ Industry | KSC, MSC,<br>HOSCO | Predatory<br>Sparrow | 🌀 | 🌀 | OT disruption<br>[CCTV footage<br>of the incident][predatorysparrow01] | [ref. 01][ref01-2022predatorysparrow]<br>[ref. 02][ref02-2022predatorysparrow] |
 | 2022Rosseti | 🟢 Low | 2022 | 🇷🇺 Russia | 1️⃣ Energy<br>2️⃣ Transport | Rosseti | AutoEnterprise | 🌀 | 🌀 | EV charging disabled<br>HMI defaced | [ref. 01][ref01-2022rosseti] | [ref. 02][ref02-2022rosseti] |
 | 2022UKR-PwrSysAtk01 | 🟡 Moderate | 2022 | 🇺🇦 Ukraine | 1️⃣ Energy | 🌀 Electric utility | [Sandworm Team][sandwormteam] | 🌀 | 🌀 | [Industroyer2][industroyer2] deployed<br>🌀 Unsuccessful attack | [ref.][ref-2022ukr-pwrsysatk01] |
 | 2022UKR-PwrSysAtk02 | ☠️ Critical | 2022 | 🇺🇦 Ukraine | 1️⃣ Energy | 🌀 Substation | [Sandworm Team][sandwormteam] | 🌀 | 🌀 | Threat actor gained access to SCADA<br>Used OT-based LotL techniques,<br>[CaddyWiper][caddywiper], and other tools | [ref.][ref-2022ukr-pwrsysatk02]
@@ -50,12 +60,15 @@
 | 2023UnitronicsDeface | 🔴 High | 2023 | 🇺🇸 United States<br>🇮🇱 Israel<br>🇮🇪 Ireland<br>🗺️ Others | 1️⃣ Energy<br>3️⃣ Water and wastewater<br>9️⃣ Industry<br>🔟 Health | Owners of Unitronics<br>Vision Series PLCs | [CyberAv3ngers][cyberav3ngers] | 🌀 | [T0883][t0883] | [CVE-2023-6448][cve-2023-6448] | [ref. 01][ref01-2023unitronicsdeface]<br>[ref. 02][ref02-2023unitronicsdeface] |
 | 2024Air-e | 🟢 Low | 2024 | 🇨🇴 Colombia | 1️⃣ Energy | Air-e | 🌀 | 🌀 | 🌀 | Ransomware attack<br>🤔 [Zero-day exploit][air-e01] | [ref. 01][ref01-2024air-e]<br>[ref. 02][ref02-2024air-e] |
 | 2024BVIEC | 🟢 Low | 2024 | 🇻🇬 British Virgin<br>Islands | 1️⃣ Energy | BVI Electricity<br>Company | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services | [ref. 01][ref01-2024bviec]<br>[ref. 02][ref02-2024bviec] |
+| 2024ElectricaGroup | 🟢 Low | 2024 | 🇷🇴 Romania | 1️⃣ Energy | Electrica Group | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services | [ref. 01][ref01-2024electricagroup]<br>[ref. 02][ref02-2024electricagroup] |
 | 2024Emcali | 🟢 Low | 2024 | 🇨🇴 Colombia | 1️⃣ Energy | Emcali | 🌀 | 🌀 | 🌀 | Attack blocked after two hours<br>IT and commercial systems<br>were targeted | [ref.][ref-2024emcali] |
-| 2024MEPSO | 🟢 Low | 2024 | 🇲🇰 North Macedonia | 1️⃣ Energy | MEPSO | 🌀 | 🌀 | 🌀 | Power supply remained intact | [ref. 01][ref01-2024mepso] |
+| 2024MEPSO | 🟢 Low | 2024 | 🇲🇰 North Macedonia | 1️⃣ Energy | MEPSO | 🌀 | 🌀 | 🌀 | Power supply remained intact | [ref.][ref-2024mepso] |
 | 2024TWN-U-Renew | 🟡 Moderate | 2024 | 🇹🇼 Taiwan | 1️⃣ Energy<br>9️⃣ Industry | Taiwan United<br>Renewable Energy | 🌀 | 🌀 | 🌀 | Factory shut down | [ref.][ref-2024twn-u-renew] |
 | 2024PEMEX | 🟢 Low | 2024 | 🇲🇽 Mexico | 1️⃣ Energy | PEMEX | 🌀 | 🌀 | 🌀 | Data breach | [ref.][ref-2024pemex] |
+| 2024RECOPE | 🟢 Low | 2024 | 🇨🇷 Costa Rica | 1️⃣ Energy<br>2️⃣ Transport<br>9️⃣ Industry | Refinadora Costarricense<br>de Petróleo (RECOPE) | 🌀 | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>Forced manual operations | [ref.][ref-2024recope] |
 | 🚫🗣️ 2025ENDE | 🟢 Low | 2025 | 🇧🇴 Bolivia | 1️⃣ Energy | Bolivia | 🤔 LockBit Group | 🌀 | 🌀 | Ransomware attack<br>Unavailability of services<br>[LockBit 3.0][lockbit3-0] deployed | [ref.][ref-2025ENDE] |
 | 2025Emera | 🟢 Low | 2025 | 🇨🇦 Canada | 1️⃣ Energy | Emera and Nova<br>Scotia Power | 🌀 | 🌀 | 🌀 | Data breach<br>🤔 Ransomware attack<br>Unavailability of services | [ref. 01][ref01-2025emera]<br>[ref. 02][ref02-2025emera] |
+| 2025BremangerDam | 🔴 High | 2025 | 🇳🇴 Norway | 3️⃣ Water and wastewater | Breivika Eiendom | 🤔 Pro-Russian group | [T1078][t1078] | [T0831][t0831] | Full valve opening triggered,<br>remaining undetected for<br>four hours<br>Weak password compromised | [ref. 01][ref01-2025bremangerdam]<br>[ref. 02][ref02-2025bremangerdam]<br>[ref. 03][ref03-2025bremangerdam] |
 
 **Legend:** 🤔 Suspicions. 🌀 Uncertainty or lack of information. 🚫🗣️ No official confirmation or public statement has been identified from the alleged victim.
 
@@ -93,12 +106,17 @@ Severity levels are assigned with a **specific focus on the OT-ICS context**. Th
 - LotL: Living off the land.
 - OT: Operational technology.
 - SIS: Safety instrumented system.
+- SPDS: Safety parameter display system.
 
 ![CITEPS02](CITEPS02.png "CITEPS: Cyber Incident Tracker for Electric Power Systems")
+
+<!-- Codename (Links) -->
+[2022predatorysparrow]: https://github.com/substationworm/IndCyberSecLetters/blob/main/2025/Issue02/Issue02.md
 
 <!-- MITRE ATT&CK®, Enterprise (Links) -->
 [t1078]: https://attack.mitre.org/techniques/T1078
 [t1091]: https://attack.mitre.org/techniques/T1091
+[t1110]: https://attack.mitre.org/techniques/T1110
 [t1133]: https://attack.mitre.org/techniques/T1133
 [t1195.002]: https://attack.mitre.org/techniques/T1195/002
 [t1200]: https://attack.mitre.org/techniques/T1200
@@ -107,14 +125,18 @@ Severity levels are assigned with a **specific focus on the OT-ICS context**. Th
 [t1566.002]: https://attack.mitre.org/versions/v7/techniques/T1566/002
 
 <!-- MITRE ATT&CK®, ICS (Links) -->
+[t0817]: https://attack.mitre.org/techniques/T0817
 [t0822]: https://attack.mitre.org/techniques/T0822
+[t0831]: https://attack.mitre.org/techniques/T0831
 [t0847]: https://attack.mitre.org/techniques/T0847
+[t0862]: https://attack.mitre.org/techniques/T0862
 [t0883]: https://attack.mitre.org/techniques/T0883
 [t0886]: https://attack.mitre.org/techniques/T0886
 
 <!-- Threat Actor (Links) -->
 [cyberav3ngers]: https://attack.mitre.org/groups/G1027
 [darksideteam]: https://web.archive.org/web/20250219155114/https://cloud.google.com/blog/topics/threat-intelligence/shining-a-light-on-darkside-ransomware-operations
+[dragonfly]: https://attack.mitre.org/groups/G0035
 [goldsouthfield]: https://attack.mitre.org/groups/G0115
 [lockbit3-0]: https://web.archive.org/web/20250404093116/https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-075a
 [mazegroup]: https://web.archive.org/web/20250225050503/https://www.kaspersky.com/resource-center/definitions/what-is-maze-ransomware
@@ -131,26 +153,45 @@ Severity levels are assigned with a **specific focus on the OT-ICS context**. Th
 [conti]: https://attack.mitre.org/software/S0575
 [crashoverride]: https://web.archive.org/web/20250413165805/https://www.dragos.com/wp-content/uploads/CrashOverride-01.pdf
 [doppelpaymer]: https://web.archive.org/web/20250113194929/https://www.trendmicro.com/en_us/research/21/a/an-overview-of-the-doppelpaymer-ransomware.html
+[dtrack]: https://attack.mitre.org/software/S0567
+[flame]: https://attack.mitre.org/software/S0143
 [hellokitty]: https://attack.mitre.org/software/S0617
 [industroyer]: https://web.archive.org/web/20250401040723/https://web-assets.esetstatic.com/wls/2017/06/Win32_Industroyer.pdf
 [industroyer2]: https://attack.mitre.org/software/S1072
 [killdisk]: https://attack.mitre.org/software/S0607
+[lockergoga]: https://attack.mitre.org/software/S0372
 [ragnarlocker]: https://attack.mitre.org/software/S0481
+[shamoon]: https://attack.mitre.org/software/S0140
 [triton]: https://attack.mitre.org/software/S1009
 
 <!-- References (Links) -->
+[ref01-1982usrr-pipeline]: https://web.archive.org/web/20250910144817/https://www.wired.com/2004/03/soviets-burned-by-cia-hackers
+[ref02-1982usrr-pipeline]:https://web.archive.org/web/20250823094334/https://www.nytimes.com/2009/10/27/science/27trojan.html
+[ref-1999gazprom]: https://ieeexplore.ieee.org/document/7954148
+[ref01-2003slammerworm]: https://web.archive.org/web/20250808143508/https://www.theregister.com/2003/08/20/slammer_worm_crashed_ohio_nuke
+[ref02-2003slammerworm]: https://web.archive.org/web/20250323152036/https://www.controleng.com/throwback-attack-the-slammer-worm-hits-davis-besse-nuclear-plant
+[ref-2008hatchnpp]: https://web.archive.org/web/20250619215336/https://www.homelandsecuritynewswire.com/cyber-mishap-causes-nuclear-power-plant-shutdown
+[ref01-2009cyberspies]: https://www.sciencedirect.com/science/article/abs/pii/S1353485809700443
+[ref02-2009cyberspies]: https://web.archive.org/web/20251015232230/https://www.nbcnews.com/id/wbna30107040
 [ref01-2010stuxnet]: https://web.archive.org/web/20241130040512/https://www.wired.com/2014/11/countdown-to-zero-day-stuxnet
 [ref02-2010stuxnet]: https://web.archive.org/web/20250408185911/https://spectrum.ieee.org/the-real-story-of-stuxnet
 [ref03-2010stuxnet]: https://link.springer.com/chapter/10.1007/978-3-642-35211-9_81
+[ref-2011nightdragon]: https://web.archive.org/web/20250529175342/https://www.mcafee.com/blogs/wp-content/uploads/2011/02/McAfee_NightDragon_wp_draft_to_customersv1-1.pdf
 [ref-2012ande]: https://web.archive.org/web/20250417190223/https://www.abc.com.py/nacionales/hackean-pagina-web-de-ande-483333.html
 [ref01-2012irn-ac-dc]: https://web.archive.org/web/20150511100332/https:/www.washingtonpost.com/blogs/worldviews/post/iranian-nuclear-facilities-are-hit-by-acdc-virus/2012/07/25/gJQAqfRz8W_blog.html
 [ref02-2012irn-ac-dc]: https://web.archive.org/web/20160428132811/http:/www.bloomberg.com/news/articles/2012-07-25/iranian-nuclear-plants-hit-by-virus-playing-ac-dc-website-says
 [ref01-2012irn-oilind]: https://web.archive.org/web/20130627010104/http://www.nytimes.com/2012/04/24/world/middleeast/iranian-oil-sites-go-offline-amid-cyberattack.html
 [ref02-2012irn-oilind]: https://web.archive.org/web/20181031200208/https://www.wired.com/2012/08/wiper-possible-origins
 [ref03-2012irn-oilind]: https://web.archive.org/web/20240817211828/https://www.computerworld.com/article/1439644/attacks-on-iranian-oil-industry-led-to-flame-malware-find.html
+[ref01-2012saudiaramco]: https://web.archive.org/web/20250924191948/https://cyberlaw.ccdcoe.org/wiki/Shamoon_%282012%29
+[ref02-2012saudiaramco]: https://web.archive.org/web/20250614084249/https://darknetdiaries.com/transcript/30
+[ref01-2012telvent]: https://web.archive.org/web/20240813151657/https://www.securityweek.com/telvent-hit-sophisticated-cyber-attack-scada-admin-tool-compromised
+[ref02-2012telvent]: https://web.archive.org/web/20220619195342/https://www.wired.com/2012/09/scada-vendor-telvent-hacked
 [ref-2012usa-powercompany]: https://web.archive.org/web/20250222032055/https://www.cisa.gov/sites/default/files/Monitors/ICS-CERT_Monitor_Oct-Dec2012.pdf
 [ref01-2014deu-steelmill]: https://web.archive.org/web/20250225121354/https://www.wired.com/2015/01/german-steel-mill-hack-destruction
 [ref02-2014deu-steelmill]: https://web.archive.org/web/20250322141517/https://www.bbc.com/news/technology-30575104
+[ref01-2014dragonfly]: https://web.archive.org/web/20240113224144/https://www.bbc.com/news/technology-28106478
+[ref02-2014dragonfly]: https://web.archive.org/web/20250726130444/https://docs.broadcom.com/doc/dragonfly_threat_against_western_energy_suppliers
 [ref01-2014khnp]: https://web.archive.org/web/20241222061717/https://www.theguardian.com/world/2014/dec/22/south-korea-nuclear-power-cyber-attack-hack
 [ref02-2014khnp]: https://web.archive.org/web/20250117043953/https://www.38north.org/2024/03/revisiting-the-2014-korea-hydro-and-nuclear-power-hack-lessons-learned-for-south-korean-cybersecurity
 [ref01-2014monju]: https://web.archive.org/web/20241115043249/https://thehackernews.com/2014/01/rogue-software-update-cause-malware_9.html
@@ -166,11 +207,20 @@ Severity levels are assigned with a **specific focus on the OT-ICS context**. Th
 [ref03-2016ukr-pwrsysatk]: https://web.archive.org/web/20250419003800/https://arstechnica.com/information-technology/2017/06/crash-override-malware-may-sabotage-electric-grids-but-its-no-stuxnet
 [ref01-2017saudiaramco]: https://web.archive.org/web/20200728202619/https://www.fireeye.com/blog/threat-research/2017/12/attackers-deploy-new-ics-attack-framework-triton.html
 [ref02-2017saudiaramco]: https://web.archive.org/web/20200728202619/https://foreignpolicy.com/2017/12/21/cyber-attack-targets-safety-system-at-saudi-aramco
+[ref03-2017saudiaramco]: https://web.archive.org/web/20250319105209/https://www.wired.com/story/triton-malware-targets-industrial-safety-systems-in-the-middle-east/?mbid=BottomRelatedStories
+[ref04-2017saudiaramco]: https://web.archive.org/web/20250704105558/https://www.wired.com/story/triton-malware-dangers-industrial-system-sabotage
+[ref05-2017saudiaramco]: https://web.archive.org/web/20250228145434/https://www.wired.com/story/russia-sanctions-triton-malware
+[ref06-2017saudiaramco]: https://web.archive.org/web/20251006110431/https://www.technologyreview.com/2019/03/05/103328/cybersecurity-critical-infrastructure-triton-malware
 [ref01-2019joburgcitypower]: https://web.archive.org/web/20190726165140/https://www.reuters.com/article/us-safrica-city-power/johannesburg-power-body-hit-by-ransomware-attack-idUSKCN1UK15N
 [ref02-2019joburgcitypower]: https://web.archive.org/web/20240723120103/https://www.dw.com/en/johannesburg-power-company-hit-by-ransomware-attack/a-49741227
 [ref03-2019joburgcitypower]: https://x.com/CityPowerJhb/status/1154277777950093313
+[ref01-2019norskhydro]: https://web.archive.org/web/20251008042440/https://news.microsoft.com/source/features/digital-transformation/hackers-hit-norsk-hydro-ransomware-company-responded-transparency
+[ref02-2019norskhydro]: https://web.archive.org/web/20251008042439/https://www.bbc.com/news/business-48661152
+[ref03-2019norskhydro]: https://web.archive.org/web/20251016154016/https://www.dnv.com/cyber/insights/articles/frontline-insights-the-norsk-hydro-cyberattack-a-reflection-on-the-importance-of-securing-digital-identities
+[ref04-2019norskhydro]: https://web.archive.org/web/20250217141130/https://www.hydro.com/en/global/media/on-the-agenda/cyber-attack
 [ref01-2019npcil]: https://web.archive.org/web/20240926110936/https://www.washingtonpost.com/politics/2019/11/04/an-indian-nuclear-power-plant-suffered-cyberattack-heres-what-you-need-know
 [ref02-2019npcil]: https://web.archive.org/web/20240417114141/https://economictimes.indiatimes.com/news/politics-and-nation/breach-at-kudankulam-nuclear-plant-may-have-gone-undetected-for-over-six-months-group-ib/articleshow/79412969.cms
+[ref03-2019npcil]: https://web.archive.org/web/20250121105742/https://www.bitsight.com/blog/cyber-attack-on-indian-nuclear-power-plant-exposes-threat-of-snooping-malware
 [ref01-2019pemex]: https://web.archive.org/web/20241009200250/https://www.bleepingcomputer.com/news/security/mexicos-pemex-oil-suffers-ransomware-attack-49-million-demanded
 [ref02-2019pemex]: https://web.archive.org/web/20250406182736/https://www.pemex.com/saladeprensa/boletines_nacionales/Paginas/2019-47_nacional.aspx
 [ref03-2019pemex]: https://web.archive.org/web/20241009150837/https://www.bleepingcomputer.com/news/security/doppelpaymer-ransomware-launches-site-to-post-victims-data
@@ -232,13 +282,19 @@ Severity levels are assigned with a **specific focus on the OT-ICS context**. Th
 [ref02-2024air-e]: https://web.archive.org/web/20240920135909/https://www.infobae.com/colombia/2024/09/10/air-e-mantiene-comprometidos-sistemas-por-ciberataque-empresa-reporto-incidente-a-la-fiscalia
 [ref01-2024bviec]: https://web.archive.org/web/20250224172620/https://bvinews.com/bviec-suffers-cyber-attack
 [ref02-2024bviec]: https://web.archive.org/web/20241111081625/https://bvinews.com/bviec-estimating-bills-after-ransomware-hack
+[ref01-2024electricagroup]: https://web.archive.org/web/20250623211421/https://www.bleepingcomputer.com/news/security/romanian-energy-supplier-electrica-hit-by-ransomware-attack
+[ref02-2024electricagroup]: https://web.archive.org/web/20250907123853/https://therecord.media/electric-distributor-cyberattack-romania
 [ref-2024emcali]: https://web.archive.org/web/20240723082412/https://www.semana.com/nacion/cali/articulo/emcali-logro-en-tiempo-record-bloquear-gran-ataque-cibernetico-como-lo-hicieron-detalles-de-una-operacion-de-alto-nivel/202442
-[ref01-2024mepso]: https://web.archive.org/web/20240610220837/https://mia.mk/en/story/mepso-hit-by-cyberattack-power-grid-and-electricity-supply-not-threatened
+[ref-2024mepso]: https://web.archive.org/web/20240610220837/https://mia.mk/en/story/mepso-hit-by-cyberattack-power-grid-and-electricity-supply-not-threatened
 [ref-2024twn-u-renew]: https://web.archive.org/web/20250125040213/https://www.ithome.com.tw/news/162248
 [ref-2024pemex]: https://web.archive.org/web/20240301023958/https://oilandgasmagazine.com.mx/2024/02/pemex-enfrenta-nueva-filtracion-de-datos-por-hackeo
+[ref-2024recope]: https://web.archive.org/web/20250907104842/https://therecord.media/costa-rica-state-energy-company-ransomware
 [ref-2025ENDE]: https://web.archive.org/web/20250417194720/http://web.archive.org/screenshot/https://www.hendryadrian.com/ransom-ende-bo
 [ref01-2025emera]: https://web.archive.org/web/20250502061343/https://www.nspower.ca
 [ref02-2025emera]: https://web.archive.org/web/20250502074743/https://www.securityweek.com/canadian-electric-utility-hit-by-cyberattack
+[ref01-2025bremangerdam]: https://web.archive.org/web/20250816235525/https://www.thetimes.com/world/europe/article/russian-hackers-norway-dam-lwljdlhpz
+[ref02-2025bremangerdam]: https://web.archive.org/web/20250808073519/https://www.claroty.com/blog/cyberattack-on-norwegian-dam-highlights-password-exposure-risks
+[ref03-2025bremangerdam]: https://web.archive.org/web/20250925191046/https://www.theguardian.com/world/2025/aug/14/russian-hackers-control-norwegian-dam-norway
 
 <!-- Vulnerabilities and Key Points (Links) -->
 [air-e01]: https://web.archive.org/web/20250417162042/http://web.archive.org/screenshot/https://www.noticiasbq.com/barranquilla/ataque-cibernetico-obliga-a-air-e-a-suspender-terminos-de-atencion
@@ -252,4 +308,5 @@ Severity levels are assigned with a **specific focus on the OT-ICS context**. Th
 [cve-2023-33009]: https://nvd.nist.gov/vuln/detail/CVE-2023-33009
 [cve-2023-33010]: https://nvd.nist.gov/vuln/detail/CVE-2023-33010
 [light01]: https://web.archive.org/web/20250122220558/https://www.securityweek.com/ransomware-operators-demand-14-million-power-company
+[nightdragon]: https://attack.mitre.org/campaigns/C0002
 [predatorysparrow01]: https://x.com/GonjeshkeDarand/status/1541288345183158272
